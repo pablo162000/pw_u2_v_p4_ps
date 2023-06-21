@@ -42,6 +42,7 @@ export default {
 </script>
 
 <style>
+/*
 button {
   background-color: #64b687;
   border-radius: 5px;
@@ -55,4 +56,5 @@ button {
 button:hover {
   background-color: #5aa67b;
 }
+*/
 </style>
