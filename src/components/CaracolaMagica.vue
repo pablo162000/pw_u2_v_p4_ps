@@ -19,6 +19,7 @@ export default {
   data() {
     return {
       pregunta: "Hola Mundo",
+      
       respuesta: "",
       rutaImagen: null,
     };
@@ -29,8 +30,11 @@ export default {
       console.log(oldValue);
 
       if (value.includes("?")) {
+        this.respuesta= "pensando.."
         console.log("Consumir el API");
+
         this.consumirAPI();
+        this.pregunta=''
       }
     },
   },
@@ -55,7 +59,7 @@ export default {
 <style>
 img,.bg-dark {
   height: 100vh;
-  width: 100wh;
+  width: 100vw;
   left: 0px;
   max-height: 100%;
   max-width: 100%;

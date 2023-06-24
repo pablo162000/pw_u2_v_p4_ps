@@ -1,16 +1,15 @@
 <template>
-  <CaracolaMagica></CaracolaMagica>
- 
+ <PokemonPage></PokemonPage>
 
 
 </template>
 
 <script>
-import CaracolaMagica from "./components/CaracolaMagica.vue";
+import PokemonPage from "./modules/pages/PokemonPage.vue";
 export default {
   name: "App",
   components: {
-    CaracolaMagica,
+    PokemonPage,
   },
 };
 </script>
