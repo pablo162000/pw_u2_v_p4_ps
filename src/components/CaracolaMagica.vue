@@ -1,6 +1,10 @@
 <template>
   <h1>Caracola Magica</h1>
-  <img v-if="rutaImagen"   v-bind:src="rutaImagen" alt="No se puede cargar la imagen" />
+  <img
+    v-if="rutaImagen"
+    v-bind:src="rutaImagen"
+    alt="No se puede cargar la imagen"
+  />
   <div class="bg-dark"></div>
   <div class="contenedor">
     <input v-model="pregunta" type="text" placeholder="Hazme una pregunta" />
@@ -53,19 +57,19 @@ export default {
 </script>
 
 <style>
-img,.bg-dark {
+img,
+.bg-dark {
   height: 100vh;
-  width: 100wh;
+  width: 100vw;
   left: 0px;
   max-height: 100%;
   max-width: 100%;
   position: fixed;
   top: 0px;
 }
-.bg-dark{
+.bg-dark {
   background-color: rgba(0, 0, 0, 0.8);
 }
-
 
 .contenedor {
   position: relative;
@@ -75,15 +79,17 @@ input {
   width: 250px;
   padding: 10px 15px;
   border-radius: 5px;
-  border:none;
+  border: none;
 }
 
-p,h1,h2 {
+p,
+h1,
+h2 {
   color: white;
 }
 
-p{
-  font-size:20px ;
+p {
+  font-size: 20px;
   margin-top: 0px;
 }
 </style>

@@ -1,16 +1,13 @@
 <template>
-  <CaracolaMagica></CaracolaMagica>
- 
-
-
+  <Juego></Juego>
 </template>
 
 <script>
-import CaracolaMagica from "./components/CaracolaMagica.vue";
+import Juego from "./components/Juego.vue";
 export default {
   name: "App",
   components: {
-    CaracolaMagica,
+    Juego,
   },
 };
 </script>
