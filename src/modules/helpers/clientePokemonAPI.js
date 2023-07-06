@@ -49,7 +49,7 @@ const obtenerNombresPokemon = async ([id1, id2, id3, id4] = []) => {
         id: data4.id
     }
 
-    const vectorObjetos = { obj1, obj2, obj3, obj4 }
+    const vectorObjetos = [obj1, obj2, obj3, obj4 ] 
 
     return vectorObjetos
 
