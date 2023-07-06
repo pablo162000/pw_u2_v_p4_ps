@@ -78,7 +78,7 @@ export default {
 
       console.log(this.pokemonCorrecto.id);
 
-      if (this.intento < 3 && this.mostrarvictoria == false) {
+      if (this.intento < 3 && this.mostrarvictoria == false && this.mostrarderrota==false) {
         if (this.pokemonCorrecto.id == idSeleccionado) {
           this.showPokemon = true;
           this.intento++;
@@ -120,7 +120,10 @@ export default {
           this.intento++;
 
           this.puntuacion = 0;
-          this.mostrarBoton= true
+          if(this.intento==3){
+            this.mostrarderrota=true;
+            this.mostrarBoton=true;
+          }
 
 
           console.log("Error");
