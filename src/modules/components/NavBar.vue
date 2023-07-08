@@ -28,7 +28,7 @@ div {
 div a {
 
     font-weight: bold;
-    color: #2c3e50;
+    color: #fcff96;
     margin:0 10px;
 }
 

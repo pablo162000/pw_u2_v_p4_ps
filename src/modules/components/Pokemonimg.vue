@@ -48,6 +48,7 @@ img {
   position: absolute;
   height: 200px;
   right: 43%;
+  padding-left: 100px;
 }
 .contenedor-imagen {
   height: 200px;
